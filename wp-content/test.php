@@ -2,6 +2,6 @@
 
 class TestClass {
 	public function __construct() {
-		$a=1;aabcd
+		$a=1;aabcde
 	}
 }
