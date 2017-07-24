@@ -13,8 +13,9 @@ class TestClass {
 	 * Constructor.
 	 */
 	public function __construct() {
-    $a=1;
-    $somethingWrong=1+2+3;
-		get_category_link($a); // @codingStandardsIgnoreLine WordPress.VIP.RestrictedFunctions
+		$a = 1;
+		$something_wrong = 1 + 2;
+		get_category_link( $a ); // @codingStandardsIgnoreLine WordPress.VIP.RestrictedFunctions
+		$force_a_conflict = 1;
 	}
 }
